@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            color: white;
+            padding: 80px 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .projects .card {
+            background: #f4f4f4;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            width: 250px;
+        }
+
+        .contact input, .contact textarea {
+            width: 60%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Hello, I'm a Developer 👋</h2>
+    <p>Python | Web Development | Machine Learning</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate developer skilled in Python, web development, and machine learning.
+        I love building real-world projects and solving problems.
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <span>Python</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>MySQL</span>
+    <span>Machine Learning</span>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Contact Manager</h3>
+        <p>Manage contacts using HTML, CSS, JS</p>
+    </div>
+
+    <div class="card">
+        <h3>Quiz App</h3>
+        <p>Interactive quiz application</p>
+    </div>
+
+    <div class="card">
+        <h3>ML Project</h3>
+        <p>House price prediction using Python</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" placeholder="Your Email"><br>
+    <textarea placeholder="Your Message"></textarea><br>
+
+    <button>Send Message</button>
+</section>
+
+<footer>
+    <p>© 2026 Your Name | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
